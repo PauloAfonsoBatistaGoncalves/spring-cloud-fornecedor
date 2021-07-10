@@ -1,0 +1,22 @@
+#Dica apagando uma letra clicando Ctrl+espaço ajusta o formato do properties para yml
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+
+    
+server:
+  port: 8081
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/fornecedor
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
