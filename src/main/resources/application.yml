@@ -7,21 +7,6 @@ logging:
 server:
   port: 8081
 
-spring:
-  application:
-    name: 'fornecedor'
-  datasource:
-    url: jdbc:mysql://localhost:3306/fornecedor
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: admin
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate.format_sql: true
-
 eureka:
   client:
     register-with-eureka: true
