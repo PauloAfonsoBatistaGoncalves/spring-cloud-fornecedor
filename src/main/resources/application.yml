@@ -1,8 +1,8 @@
 #Dica apagando uma letra clicando Ctrl+espaço ajusta o formato do properties para yml
 
-logging:
-  level:
-    org.springframework.web: DEBUG
+#logging:
+#  level:
+#    org.springframework.web: DEBUG
     
 server:
   port: 8081
